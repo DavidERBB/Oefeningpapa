@@ -1,0 +1,149 @@
+
+body, p, li, h1, h2, h3, h4 {
+  font-family: Verdana, sans-serif, Tahoma;
+}
+
+h2 {
+  padding-top: 15px;
+}
+
+h3 {
+  padding-top: 5px;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+header {
+  background-color: #006600;
+  text-align: left;
+  color : white;
+  margin: 0;
+  display: block;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  position: top;
+}
+
+footer {
+  background-color: #006600;
+  text-align: right;
+  color : white;
+  margin: 0;
+  display: block;
+  padding: 10px 15px;
+  font-size: 10px;
+  //width: 100%;
+  //bottom: 0;
+  //position: fixed;
+}
+
+section {
+  margin: 15px
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #342;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+nav a:hover {
+  background-color: gray;
+  color : white;
+}
+
+blockquote {
+	margin-left: 0;
+    padding-left: 60px;
+    min-height: 40px;
+    background: url(images/blockqoute.png) no-repeat;
+}
+
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:75%;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  //text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  font-family: font-family: Verdana, sans-serif, Tahoma;
+  border-collapse: collapse;
+  //width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
