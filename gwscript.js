@@ -19,6 +19,10 @@ function deSelectAll() {
 	document.getElementById("nav_e").style.background = "#342";
 	document.getElementById("nav_e").style.color = "white";
 	
+	document.getElementById("f").style.display = "none";
+	document.getElementById("nav_f").style.background = "#342";
+	document.getElementById("nav_f").style.color = "white";
+	
 	document.getElementById("z").style.display = "none";
 	document.getElementById("nav_z").style.background = "#342";
 	document.getElementById("nav_z").style.color = "white";
@@ -39,4 +43,5 @@ document.getElementById("nav_b").onclick = function() {openNavItem("b");}
 document.getElementById("nav_c").onclick = function() {openNavItem("c");}
 document.getElementById("nav_d").onclick = function() {openNavItem("d");}
 document.getElementById("nav_e").onclick = function() {openNavItem("e");}
+document.getElementById("nav_f").onclick = function() {openNavItem("f");}
 document.getElementById("nav_z").onclick = function() {openNavItem("z");}
